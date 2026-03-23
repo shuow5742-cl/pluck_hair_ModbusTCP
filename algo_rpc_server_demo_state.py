@@ -13,7 +13,7 @@ from typing import Any  # 导入 Any，用于类型标注。
 # ============================== 第2块：统一配置区 ==============================  # 说明这是统一配置区。
 
 HOST = "127.0.0.1"  # JSON-RPC 服务默认监听地址。
-PORT = 18080  # JSON-RPC 服务默认监听端口。
+PORT = 18000  # JSON-RPC 服务默认监听端口。
 RPC_PATH = "/jsonrpc"  # JSON-RPC 服务默认请求路径。
 
 STATE_NEW_TARGET = "new_target"  # 主程序返回：当前是新异物坐标。
